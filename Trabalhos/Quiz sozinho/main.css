@@ -1,0 +1,96 @@
+ @import "/CSS/nav.css";
+ 
+ .pergunta { 
+  color: rgb(0, 255, 234);
+  margin: 4rem auto 5rem auto;
+  font-size: 50px;
+  border: black 10px;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2.5rem auto;
+  font-size: 20px;
+  color: aqua;
+  background: linear-gradient(0deg, rgb(0, 6, 129) 0%, blue 50%, rgb(0, 6, 129) 100%);
+}
+
+.quiz {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin: 3rem ;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-finish {
+  display: inline-block;
+}
+
+.Questão {
+  margin-top: 3rem;
+}
+
+.contador {
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 40px;
+}
+
+div.quiz>div.alternativas> button {
+background: linear-gradient(0deg, rgb(58, 206, 252) 0%, rgb(0, 68, 255) 100%);
+line-height: 42px;
+padding: 0;
+border: none;
+border-radius: 8px;
+margin: auto auto 4rem 4px ;
+}
+
+div.quiz>div.alternativas> button {
+position: relative;
+display: inline;
+width: 5rem;
+height: auto;
+}
+
+.quiz>.alternativas> button:before,
+.quiz>.alternativas> button:after {
+position: absolute;
+content: "";
+right: 0;
+bottom: 0;
+background: rgb(12, 186, 255);
+box-shadow:
+ -7px -7px 20px 0px rgba(255,255,255,.9),
+ -4px -4px 5px 0px rgba(255,255,255,.9),
+ 7px 7px 20px 0px rgba(0,0,0,.2),
+ 4px 4px 5px 0px rgba(0,0,0,.3);
+transition: all 0.3s ease;
+}
+
+.quiz>.alternativas> button:before{
+ height: 0%;
+ width: 2px;
+}
+
+.quiz>.alternativas> button:after {
+width: 0%;
+height: 2px;
+}
+
+.quiz>.alternativas> button:hover{
+color: rgb(129, 207, 252);
+background: transparent;
+}
+
+.quiz>.alternativas> button:hover:before {
+height: 100%;
+}
+.quiz>.alternativas> button:hover:after {
+width: 100%;
+}

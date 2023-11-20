@@ -1,0 +1,52 @@
+@import "/../CSS/nav.css";
+
+    body {
+      background-color: rgba(0, 0, 0, 0.911);
+    }
+
+    main {
+      border: 2px groove rgb(0, 0, 0);
+      width: auto;
+      margin: 20px 30px 20px 30px;
+      float: center;
+
+
+    }/* Principal  */
+    main p,
+    main h1,
+    main h2 {
+      color: white;
+    }
+
+    main h1 {
+      display: block;
+      text-align: center;
+      font-size: 40px;
+    }
+
+    main #img1 {
+      margin: 2px;
+      margin-right: 6px;
+      height: 220px;
+      width: 300px;
+      float: left;
+    }
+
+    main {
+      display: flex;
+    }
+
+     article {
+      padding: 5px 10px;
+      height: auto;
+      margin: auto 30px auto 30px;
+      width: 90%;
+    }
+
+     .img img {
+      display: inline;
+      
+      height: 30rem;
+      width: 30rem;
+    }
+    

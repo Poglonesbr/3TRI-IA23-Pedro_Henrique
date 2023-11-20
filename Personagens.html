@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/personagens.css">
+  <script defer defer src='JS/Personag.js'></script>
+  <script async defer src="JS/menuemodal.js"> </script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>Personagens</title>
+</head>
+
+<body>
+  <button class="menu-hamburger">
+    <span> </span>
+    <span></span>
+    <span></span>
+
+  </button>
+
+  <nav class="main-menu">
+
+    <a href="#anchor_1">Personagens Principais <span class="material-symbols-outlined">
+        sports_martial_arts
+      </span></a>
+    <a href="#anchor_2">Personagens Secundários <span class="material-symbols-outlined">
+        groups
+      </span></a>
+
+      <button class="bt-dialog">Tema (dialog)</button>
+  </nav>
+  <header>
+    <nav class="nav">
+      <ul>
+        <li>
+          <a href="Desafios.html">Desafios</a>
+        </li>
+        <li>
+          <a href="Trabalhos.html">Trabalhos</a>
+        </li>
+
+        <li>
+          <a href="index.html"> Pagina Principal</a>
+        </li>
+
+        <li>
+          <a href="Animes.html">Animes</a>
+        </li>
+        <li>
+          <a href="Personagens.html">Personagens</a>
+          <div class="dropdown-content">
+            <ul><a href="Principais.html">Principais</a></ul>
+            <ul><a href="Secundarios.html">Secundários</a></ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <dialog>
+      <form>
+        <h1>Seleção de tema</h1>
+        <p>Você gostaria de utilizar qual tema?</p>
+        <div class="action">
+          <button id="dark-mode-btn" data-theme="dark">Escuro</button>
+          <button id="light-mode-btn" data-theme="light">Claro</button>
+        </div>
+      </form>
+    </dialog>
+
+  </header>
+
+  <main>
+    <div class="titulo">
+      <h1>Personagens</h1>
+    </div>
+    <div class="personprinc">
+      <h2 id="anchor_1">Personagens Principais / Protagonistas</h2>
+
+      <div class="lista">
+        <button class="bt-modal"><img id="img1" src="  Imagens/Personagens/Rimuru_Human_Anime.png"></button>
+        <button class="show" data-modal="modal1">
+          <img id="img1" src="  Imagens/Personagens/Rimuru_Human_Anime.png">
+        </button>
+        <div class="modal" id="modal1">
+          <div class="window">
+            <button class="close" data-modal="modal1">X</button>
+            <div class="content">
+              <h1 class="Nomep">Rimuru Tempest</h1>
+              <p>
+                Rimuru Tempest é o protagonista de "Tensei Shitara Slime Datta Ken", um slime com habilidades únicas que
+                o transformam em um líder carismático e poderoso. Ele busca estabelecer uma nação justa e importante
+                para monstros e humanos em um mundo de fantasia. Rimuru é conhecido por sua sabedoria, compaixão e
+                capacidade de se adaptar a diversas situações.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal2">
+          <img id="img2" src="Imagens/Personagens/Naruto_-_15_anos_29.jpg">
+        </button>
+        <div class="modal" id="modal2">
+          <div class="window">
+            <button class="close" data-modal="modal2">X</button>
+            <div class="content">
+              <h1>Naruto Uzumaki</h1>
+              <p>
+                Naruto Uzumaki é o herói de "Naruto", um ninja desajeitado e determinado que busca se tornar o Hokage, o
+                líder de sua vila. Ele carrega o sonho de ser reconhecido e supera desafios com seu espírito
+                perseverante e a força do poderoso Jinchuriki, a Raposa de Nove Caudas, selada dentro dele. Naruto é
+                conhecido por sua determinação inabalável.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal3">
+          <img id="img3" src="Imagens/Personagens/Ash_Ketchum_Journeys.png">
+        </button>
+        <div class="modal" id="modal3">
+          <div class="window">
+            <button class="close" data-modal="modal3">X</button>
+            <div class="content">
+              <h1>Ash Ketchum</h1>
+              <p>
+                Ash Ketchum é o protagonista de "Pokémon", um treinador de Pokémon que sonha em se tornar um Mestre
+                Pokémon. Com seu parceiro Pikachu, ele viaja por diversas regiões, enfrentando desafios, capturando
+                Pokémon e fazendo amigos. Ash é conhecido por sua dedicação, paixão e pelo seu lema de "pegar todos" os
+                Pokémon.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal4">
+          <img id="img4" src="Imagens/Personagens/Tanjiro_Kamado_Anime.png">
+        </button>
+        <div class="modal" id="modal4">
+          <div class="window">
+            <button class="close" data-modal="modal4">X</button>
+            <div class="content">
+              <h1>Tanjiro Kamado</h1>
+              <p>
+                Tanjiro Kamado é o personagem principal de "Demon Slayer: Kimetsu no Yaiba". Ele é um jovem bondoso e
+                decidiu que se tornaria um caçador de demônios após sua família ser massacrada por um demônio e sua
+                irmã, Nezuko, ser transformada em uma. Tanjiro busca vingança contra os demônios e cura sua irmã
+                enquanto luta pela justiça e pela proteção da humanidade.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal5">
+          <img id="img5" src="Imagens/Personagens/Yuji_Itadori.webp">
+        </button>
+        <div class="modal" id="modal5">
+          <div class="window">
+            <button class="close" data-modal="modal5">X</button>
+            <div class="content">
+              <h1>Yuji Itadori</h1>
+              <p>
+                Yuji Itadori é o protagonista de "Jujutsu Kaisen". Um estudante do ensino médio com habilidades
+                atléticas excepcionais, ele acidentalmente ingere um dedo amaldiçoado, desencadeando eventos que o levam
+                a se tornar um usuário de jujutsu e lutar contra maldições para proteger a humanidade. Yuji é conhecido
+                por sua coragem, determinação e senso de responsabilidade. </p>
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal6">
+          <img id="img6" src="Imagens/Personagens/Asta(base).webp">
+        </button>
+        <div class="modal" id="modal6">
+          <div class="window">
+            <button class="close" data-modal="modal6">X</button>
+            <div class="content">
+              <h1>Asta</h1>
+              <p>
+                Asta é o protagonista de "Black Clover". Ele nasceu sem qualquer poder mágico em um mundo onde a magia é
+                fundamental. Determinado a se tornar o Rei Mago e superar suas limitações, Asta obtém um grimório
+                especial que lhe concede uma espada anti-magia. Ele é conhecido por sua perseverança, força física
+                excepcional e determinação incansável para se tornar um grande mago.
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal7">
+          <img id="img7" src="Imagens/Personagens/JinMo-Ri.webp">
+        </button>
+        <div class="modal" id="modal7">
+          <div class="window">
+            <button class="close" data-modal="modal7">X</button>
+            <div class="content">
+              <h1>Jin Mori</h1>
+              <p>
+                Jin Mori é o protagonista de "The God of High School". Ele é um lutador talentoso que participa do
+                torneio de artes marciais chamado "O Deus do Ensino Médio". Jin é conhecido por sua incrível força
+                física e habilidades em combate, bem como por seu espírito competitivo e desejo de se tornar o lutador
+                mais forte. Ele se destaca na série devido à sua determinação e carisma no campo de batalha.
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- Fim da lista -->
+    </div>
+    <h2 id="anchor_2">Personagens Secundarios </h2>
+    <div class="personsec">
+      <div class="lista">
+
+        <button class="show" data-modal="modal30">
+          <img id="img30" src="Imagens/Personagens/Ranga_Season_2_Anime.webp">
+        </button>
+        <div class="modal" id="modal30">
+          <div class="window">
+            <button class="close" data-modal="modal30">X</button>
+            <div class="content">
+              <h1>Ranga Tempest</h1>
+              <p>
+                Ranga Tempest é um personagem de "Tensei Shitara Slime Datta Ken". Ele é um dos fiéis seguidores de
+                Rimuru Tempest e um poderoso lobo celestial. Ranga é conhecido por sua lealdade inabalável a Rimuru, sua
+                habilidade de evoluir e se transformar em várias formas, e sua força formidável no campo de batalha.
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal31">
+          <img id="img31" src="Imagens/Personagens/Aizen.Sousuke.full.1399757.webp">
+        </button>
+        <div class="modal" id="modal31">
+          <div class="window">
+            <button class="close" data-modal="modal31">X</button>
+            <div class="content">
+              <h1>Sosuke Aizen</h1>
+              <p>
+                Sosuke Aizen é um personagem icônico do anime e mangá "Bleach". Ele é um ex-capitão da Soul Society e é
+                conhecido por sua natureza manipuladora e maquiavélica. Aizen busca poderes divinos e é um mestre em
+                ilusões e manipulação de outros personagens, incluindo seus próprios aliados. Ele é um dos antagonistas
+                mais marcantes da série, conhecido por sua astúcia e habilidades formidáveis.
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal32">
+          <img id="img32" src="Imagens/Personagens/Sakura_haruno_render_by_xuzumaki-d49n9i7.webp">
+        </button>
+        <div class="modal" id="modal32">
+          <div class="window">
+            <button class="close" data-modal="modal32">X</button>
+            <div class="content">
+              <h1>Sakura Haruno</h1>
+              <p>
+                Sakura Haruno é uma personagem de "Naruto". Ela é uma ninja da Vila da Folha e faz parte da equipe 7,
+                junto com Naruto e Sasuke. Inicialmente, Sakura é retratada como uma kunoichi com habilidades médicas,
+                mas ao longo da série, ela desenvolve habilidades de combate significativas. Ela é conhecida por seu
+                amor e devoção a Sasuke Uchiha, bem como por sua jornada de crescimento pessoal e amizade com Naruto.
+
+
+
+
+            </div>
+          </div>
+        </div>
+        <button class="show" data-modal="modal33">
+          <img id="img33" src="Imagens/Personagens/Vegeta_by_maffo1989-d7avdoe.webp">
+        </button>
+        <div class="modal" id="modal33">
+          <div class="window">
+            <button class="close" data-modal="modal33">X</button>
+            <div class="content">
+              <h1>Vegeta</h1>
+              <p>
+                Vegeta é um personagem icônico da série "Dragon Ball". Ele é um príncipe guerreiro da raça Saiyajin,
+                inicialmente um antagonista, mas posteriormente se torna um aliado de Goku e seus amigos na busca pelas
+                Esferas do Dragão e na defesa da Terra contra ameaças poderosas. Vegeta é conhecido por sua
+                personalidade orgulhosa, sua rivalidade com Goku e sua busca constante por superar seus limites em busca
+                de poder e respeito.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <button class="bt-modal"></button>
+</body>
+
+</html>

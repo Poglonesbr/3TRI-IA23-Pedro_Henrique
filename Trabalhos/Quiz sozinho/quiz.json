@@ -1,0 +1,52 @@
+[
+  {
+    "pergunta": "Quantos anos o professor Varela tem?",
+    "correta": 6,
+    "alternativas": [17, 25, 27, 30, 32, 33, 36, 37, 40, 57]
+  },
+  {
+    "pergunta": "Quem é o mais velho da IA23?",
+    "correta": 3,
+    "alternativas": ["Davi", "Gustavo", "Erika", "Livia", "Arthur", "Bruno", "Ana Julia", "Natan", "Henrique", "Eduarda"]
+  },
+  {
+    "pergunta": "Quantos alunos tem na IA23?",
+    "correta": 9,
+    "alternativas": [35, 34, 29, 30, 32, 33, 36, 38, 35, 37]
+  },
+  {
+    "pergunta": "Quem é o mais amado da IA23?",
+    "correta": 4,
+    "alternativas": ["Davi", "Gustavo", "Erika", "Livia", "Arthur", "Bruno", "Ana Julia", "Natan", "Henrique", "Eduarda"]
+  },
+  {
+    "pergunta": "Quantos alunos a turma 2 tem?",
+    "correta": 0,
+    "alternativas": [18, 13, 20, 15, 21, 22, 17, 19, 16, 14]
+  },
+  {
+    "pergunta": " Complete a frase: Cala a boca _______",
+    "correta": 7,
+    "alternativas": ["João", "Gustavo", "Erika", "Livia", "Pedro", "Bruno", "Rian", "Natan", "Henrique", "Eduarda"]
+  },
+  {
+    "pergunta": "Quantos anos o professor Varela tem?",
+    "correta": 6,
+    "alternativas": [17, 25, 27, 30, 32, 33, 36, 37, 40, 57]
+  },
+  {
+    "pergunta": "Qual o melhor aluno(a) da turma 2?  |  (Meme)",
+    "correta": 5,
+    "alternativas": ["Natan", "Gustavo", "Rian", "Livia", "Mateus", "Rodrigo", "Leonardo", "Natan", "Henrique", "Vagner"]
+  },
+  {
+    "pergunta": "Quantos alunos a turma 1 tem?",
+    "correta": 2,
+    "alternativas": [18, 23, 19, 15, 21, 22, 17, 20, 16, 14]
+  },
+  {
+    "pergunta": "Quem é o mais velho da IA23?",
+    "correta": 3,
+    "alternativas": ["Davi", "Gustavo", "Erika", "Livia", "Arthur", "Bruno", "Ana Julia", "Natan", "Henrique", "Eduarda"]
+  }
+]

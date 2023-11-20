@@ -1,0 +1,84 @@
+@import "../CSS/nav.css";
+@import "../CSS/menuemodal.css";
+
+body.dark-mode {
+  background-image: url(..//Imagens/fundo-preto-background58-1024x640.webp);
+  color: white;
+}
+
+body {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+
+header {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+
+  /* Texto de cima (cabeçalho) */
+}
+
+
+
+h1 {
+  font-size: 50px;
+  font-style: italic;
+  
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.5rem 3rem;
+  width: auto;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.links a {
+  text-decoration: none;
+  font-style: oblique;
+  color: black;
+  display: inline-block;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+body.dark-mode .links a {
+  color: white;
+}
+
+.img {
+  display: inline-block;
+  width: 9rem;
+  height: 9rem;
+  border: solid 3px black;
+  border-radius: 20px;
+  transition: 1s;
+  filter: brightness(50%);
+
+}
+
+.img:hover {
+  scale: 1.2;
+  transition: 1.5s;
+  filter: brightness(100%);
+}
+
+main {
+  border-radius: 20px;
+  -moz-box-shadow: 10px 10px 18px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 18px 2px rgba(0, 0, 0, 0.75);
+  margin: 5rem 4rem  auto 4rem;
+  
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+
+}
+
+.tex p {
+  padding: 1rem;
+}
+

@@ -1,0 +1,63 @@
+
+.modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    inset: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal .window {
+    position: relative;
+    background-color: #ffffff;
+    height: 70vmin;
+    width: 80vmin;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 25px;
+  }
+  
+  .modal .window .close {
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    right: -1.2rem;
+    top: -1.2rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .modal .window .content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: #ffffff;
+    flex-grow: 1;
+  }
+  
+  .modal .window .content p {
+    text-align: justify;
+    font-size: 1.3rem;
+  }
+  
+  
+  
+  
+  .modal.opened {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+  }
+
+
+
+  

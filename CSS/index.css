@@ -1,0 +1,100 @@
+@import "nav.css";
+@import "menuemodal.css";
+
+
+:root {
+  --height_img: 20rem;
+  --width_img: 35rem;
+  --color_boxshadow: 0 7px 8px 3px black;
+  --dark_boxshadow: 0 7px 8px 3px rgba(116, 217, 248, 0.445);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  background-color: rgba(248, 248, 248, 0.904);
+  background-size: 100vmax;
+  font-size: calc(12px + .6vw);
+
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+
+  /* Texto de cima (cabeçalho) */
+}
+
+.titulo {
+  margin: 3rem auto 0 auto;
+  padding: 1px;
+  text-align: center;
+  font-size: 2.3rem;
+
+}
+
+main {
+  margin: 3rem 100px auto 100px;
+  text-align: left;
+  text-indent: 1rem;
+  border: solid 1px gray;
+  border-radius: 40px;
+  padding-left: 1rem;
+  background-color: rgb(241, 241, 241);
+  box-shadow: var(--color_boxshadow);
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+
+img {
+  display: block;
+  float: none;
+  margin: auto auto 3px auto;
+  align-items: center;
+  width: var(--width_img);
+  height: var(--height_img);
+  border-radius: 5px;
+}
+
+img:hover {
+ 
+  scale: 1.01;
+  transition: 1s ease-in-out;
+  box-shadow: var(--color_boxshadow);
+}
+
+#img1 {
+  display: inline;
+  float: right;
+  margin-right: 1rem;
+  width: var(--width_img);
+  height: var(--height_img);
+}
+
+
+#img2 {
+  display: block;
+  float: none;
+  margin: auto;
+  align-items: center;
+  width: calc(var(--width_img) - 15rem);
+  height: calc(var(--height_img) - 5rem);
+}
+
+#img3 {
+
+  width: var(--width_img);
+  height: calc(var(--height_img) + 10rem);
+}
+
+
+
+

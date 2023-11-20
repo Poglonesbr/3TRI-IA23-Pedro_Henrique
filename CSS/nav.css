@@ -1,0 +1,80 @@
+nav>ul {
+  display: inline-block;
+  top: 0;
+
+}
+
+.nav {
+
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  top: 5px;
+  z-index: 2;
+  transition: 0.3s;
+  translate: -50%;
+  width: 100%;
+}
+
+li {
+
+  list-style: none;
+  margin: 10px;
+  display: inline;
+}
+
+li a {
+  padding: 5px 10px;
+  margin: 0;
+  border: 1px solid white;
+  background: black;
+  text-decoration: none;
+  color: #FFF;
+  border-radius: 10px;
+}
+
+li a:hover {
+  background: #CCC;
+  color: #000;
+  border: 1px solid black;
+}
+
+nav>ul>li> {
+  position: absolute;
+  background-color: black;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+
+nav :is(ul, li) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li {
+  padding: .5em;
+  transition: 15s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 160px;
+  padding: 12px 1px;
+  z-index: 1;
+  /* O que está dentro dos botoes do nav */
+}
+
+nav>ul>li:hover .dropdown-content {
+  display: block;
+  justify-content: center;
+  margin: auto;
+}
+
+nav>ul>li>.dropdown-content>ul {
+  margin-bottom: 1px;
+  display: flex;
+}

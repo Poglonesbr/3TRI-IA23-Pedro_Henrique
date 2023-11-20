@@ -1,0 +1,21 @@
+@import "nav.css";
+
+
+body {
+  text-align: center;
+}
+  
+  header {
+    text-align: center;
+    margin: auto;
+    display: inline-block;
+    
+    /* Texto de cima (cabeçalho) */
+  }
+   
+  
+  .titulo {
+    margin: 3rem auto;
+    text-align: center;
+  }
+  

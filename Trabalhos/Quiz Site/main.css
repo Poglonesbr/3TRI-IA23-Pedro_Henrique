@@ -1,0 +1,105 @@
+ .pergunta { 
+  margin: 4rem auto 5rem auto;
+  font-size: 50px;
+  border: black 10px;
+
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2.5rem auto;
+  font-size: 20px;
+  background-image: url(../../Imagens/desktop-wallpaper-black-background-papel-de-parede-com-fundo-preto-black-paisley.jpg);
+  background-size: cover;
+  color: whitesmoke;
+
+}
+
+.quiz {
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 40px;
+  margin: 3rem 3rem 0px ;
+  justify-content: center;
+  text-align: center;
+  backdrop-filter: blur(3px);
+  z-index: 0;
+}
+
+.Questão {
+  margin-top: 3rem;
+}
+
+.contador {
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 40px;
+}
+
+ .alternativas button {
+background: gray;
+border: 1px solid black;
+line-height: 42px;
+padding: .4rem;
+border-radius: 8px;
+margin: auto auto 4rem 4px;
+position: relative;
+display: inline;
+width: auto;
+min-width: 5rem;
+height: auto;
+cursor: pointer;
+}
+
+.alternativas button:hover {
+  color: white;
+  background-color: black;
+  border: 1px solid whitesmoke;
+}
+
+.modal-finish {
+  display: grid;
+  place-items: center;
+  position: fixed;
+  text-align: center;
+  visibility: hidden;
+  inset: 0;
+  width: 80vw;
+  height: 80vh;
+  background-color: rgba(25, 71, 170, 0.473); 
+  border-radius: 80px;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(4px);
+  
+}
+
+.modal-finish.open {
+  margin: auto;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+.contador {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.corretas, .erradas {
+  font-weight: bold;
+}
+
+h2 {
+  color: white;
+  margin-top: 4rem;
+}
+
+span {
+  margin: 0 3rem 0 3rem;
+}

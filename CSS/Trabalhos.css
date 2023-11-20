@@ -1,0 +1,66 @@
+@import "nav.css";
+@import "menuemodal.css";
+
+body.dark-mode {
+  background-image: url(../Imagens/desktop-wallpaper-pure-black-and-3d-black-black-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  text-align: center;
+}
+
+header {
+  
+  margin: auto;
+  display: inline-block;
+
+  /* Texto de cima (cabeçalho) */
+}
+
+
+
+h1 {
+  font-size: 50px;
+  font-style: italic;
+  
+}
+
+.links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1.5rem auto;
+  width: auto;
+  text-align: center;
+  font-size: 2rem;
+  height: 10rem;
+  place-items: center;
+}
+
+.links a {
+  text-decoration: none;
+  font-style: oblique;
+  color: black;
+  width: fit-content;
+
+}
+
+body.dark-mode .links a {
+  color: white;
+}
+
+main {
+  border-radius: 20px;
+  -webkit-box-shadow: 10px 10px 18px 2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 18px 2px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 18px 2px rgba(0, 0, 0, 0.75);
+  margin: 1rem 4rem auto 4rem;
+  height: 100%;
+  background-color: rgba(226, 226, 226, 0.685);
+  font-size: 1.5rem;
+}
+
+.tex p {
+  padding-top: 1rem;
+}

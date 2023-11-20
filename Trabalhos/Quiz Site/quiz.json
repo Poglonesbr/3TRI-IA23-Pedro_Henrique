@@ -1,0 +1,27 @@
+[
+  {
+    "pergunta": "Qual personagem é do anime Tensei Shittara Slime Datta Ken?",
+    "correta": 0,
+    "alternativas": ["Ranga", "Naruto", "Asta", "Erwin", "Guy"]
+  },
+  {
+    "pergunta": "Quem é um protagonista?",
+    "correta": 3,
+    "alternativas": ["Vegeta", "Levi", "Hisoka", "Jin Mori", "Aizen"]
+  },
+  {
+    "pergunta": "Qual o lema de Ash?",
+    "correta": 1,
+    "alternativas": ["Nunca desistir", "Pegar todos", "O futuro é algo que você mesmo faz", "Eu me recuso a deixar que o medo me controle" ]
+  },
+  {
+    "pergunta": "Quem tem uma irmã?",
+    "correta": 4,
+    "alternativas": ["Naruto", "Aizen", "Ranga", "Yuji", "Tanjiro"]
+  },
+  {
+    "pergunta": "Quantos Protagonistas tem no site por enquanto?",
+    "correta": 2,
+    "alternativas": [6, 11, 7, 10, 8]
+  }
+]

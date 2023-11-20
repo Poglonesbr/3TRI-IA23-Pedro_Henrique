@@ -1,0 +1,44 @@
+@import "nav.css";
+@import "menuemodal.css";
+@import "container.css";
+
+
+:root {
+  --height_img: 20rem;
+  --width_img: 35rem;
+  --color_boxshadow: 0 7px 8px 3px black;
+  --dark_boxshadow: 0 7px 8px 3px rgba(116, 217, 248, 0.445);
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  font-size: 1.1rem;
+}
+
+body {
+  text-align: center;
+}
+
+
+header {
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+
+  /* Texto de cima (cabeçalho) */
+}
+
+
+.titulo {
+  margin: 3rem auto;
+  text-align: center;
+}
+
+
+main {
+  
+  text-align: center;
+  box-shadow: var(--color_boxshadow);
+}

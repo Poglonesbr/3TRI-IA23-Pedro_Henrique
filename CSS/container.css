@@ -1,0 +1,52 @@
+.titulo {
+    margin: 5rem auto 0 auto;
+    padding: 1px;
+    text-align: center;
+    font-size: 2rem;
+  
+  }
+  
+  
+  main {
+    min-height: 30rem;
+    margin: auto 100px auto 100px;
+    text-align: justify;
+    text-indent: 3rem;
+    background-color: rgba(245, 245, 245, 0.623);
+    border-radius: 60px;
+    backdrop-filter: blur(3px);
+    padding-bottom: 3rem;
+  }
+  
+  p {
+    margin: auto 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .container {
+    width: 100%;
+    height: 15rem;
+    white-space: nowrap;
+    overflow-x: auto;
+  
+  
+  }
+  
+  .conteudo img {
+    justify-content: center;
+    margin: 3rem 1rem;
+    width: 6rem;
+    height: 8rem;
+    border-radius: 5px;
+  }
+  
+  
+  
+  img:hover {
+  transform: scale(1.6);
+    transition: 1s ease-in-out;
+    box-shadow: var(--color_boxshadow);
+  }
+  
+  
